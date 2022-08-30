@@ -126,7 +126,7 @@ async def group(client, message):
             for file in files:
                 file_id = file.file_id
                 filename = f"[{get_size(file.file_size)}] {file.file_name}"
-                url = https://api.shareus.in/shortLink?token=xGzniHOkadfY4aP4HKbnGxHGGkv1&format=json&link=https://telegram.dog/{nyva}?start=pr0fess0r_99_-_-_-_{file_id}
+                url = 'https://api.shareus.in/shortLink?token=xGzniHOkadfY4aP4HKbnGxHGGkv1&format=json&link=https://telegram.dog/{nyva}?start=pr0fess0r_99_-_-_-_{file_id}'
                 res = requests.get(url).json()
                 short_link = res["shortlink"] 
                 btn.append([InlineKeyboardButton(text=f"{filename}", url=short_link)] )
