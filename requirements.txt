@@ -10,3 +10,4 @@ requests
 parse-torrent-name
 aiofiles
 dnspython
+requests 
