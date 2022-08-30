@@ -7,6 +7,9 @@ from pyrogram.errors import UserNotParticipant
 from LuciferMoringstar_Robot import get_filter_results, get_file_details, is_subscribed, get_poster
 from LuciferMoringstar_Robot import RATING, GENRES, HELP, ABOUT
 import random
+import requests
+import json
+
 BUTTONS = {}
 BOT = {}
 
